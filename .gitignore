@@ -58,3 +58,13 @@ master.srt
 takes_packed.md
 edl.json
 project.md
+
+# Per-project working tree — source assets + intermediate render artifacts.
+_work/
+
+# Claude Code per-project state (settings, hooks, plugin caches).
+.claude/
+
+# Personal ElevenLabs voice library cache. Regenerable via utils/list_voices.py;
+# voice_ids are not secret but the listing is account-specific.
+voices.json
